@@ -90,37 +90,36 @@ public class Tarea {
         this.idTarea = idTarea;
         this.descripcion = descripcion;
         this.prioridad = prioridad;
-   
-    }
 
+ 
+    }
     public int getIdTarea() {
         return idTarea;
-   
     }
+
 
     public void setIdTarea(int idTarea) {
         this.idTarea = idTarea;
-   
     }
+
 
     public String getDescripcion() {
         return descripcion;
-   
     }
 
-    public void setDescripcion(String descripcion) {
+
+     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-   
     }
+
 
     public int getPrioridad() {
         return prioridad;
-   
     }
 
-    public void setPrioridad(int prioridad) {
+
+     public void setPrioridad(int prioridad) {
         this.prioridad = prioridad;
-   
     }
     
     
